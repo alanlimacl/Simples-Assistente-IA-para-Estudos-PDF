@@ -48,7 +48,7 @@ def main():
         
         st.title('Seus Arquivos')
         pdf_docs = st.file_uploader(
-            'Selecione seu arquivo e clique em enviar.',
+            "Selecione o arquivo (PDF) e clique em enviar.",
             type=['pdf'],
             accept_multiple_files=True)
 
