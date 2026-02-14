@@ -68,4 +68,11 @@ def main():
 
 
 if __name__ == '__main__':
-    app = main()
+    import os
+    caminho_deste_arquivo = os.path.abspath(__file__)
+    print(caminho_deste_arquivo)
+    
+    PASTA_ATUAL = os.path.dirname(caminho_deste_arquivo)
+    print(PASTA_ATUAL)
+    
+          
