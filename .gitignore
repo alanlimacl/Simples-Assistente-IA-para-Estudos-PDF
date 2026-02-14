@@ -1,2 +1,4 @@
 .env
-venv_ia
+venv_ia/
+__pycache__/
+*.pyc
